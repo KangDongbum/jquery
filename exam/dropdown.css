@@ -1,3 +1,4 @@
+@charset='utf-8';
 *{
 	box-sizing:border-box;
 }
@@ -27,9 +28,17 @@ body{
 	 height: 0;
 	 width: 100%;
 	 border: 0;
-	 padding: 15px;
 	 position: absolute;
 	 top: 55px;
 	 overflow: hidden;
+	 transition: all 0.5s;
+ }
+ .all_menu > .inner{
+	 padding: 15px;
+	 height: 200px;
+ }
+ 
+nav.on .all_menu{
+	 height: 200px;
  }
  
